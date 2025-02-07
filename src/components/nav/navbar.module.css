@@ -1,0 +1,49 @@
+.container {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  z-index: 300;
+  width: 100%;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.655);
+  border-radius: 10px;
+  margin-top: 13px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.link {
+  padding: 10px;
+  font-family: var(--textNavigation);
+  transition: 0.3s;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 0 10px;
+  color: #000000;
+}
+
+.link:hover {
+  text-align: center;
+  cursor: pointer;
+  scale: 1.1;
+  color: white;
+}
+
+.responsive {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .icons,
+  .partleft,
+  .links {
+    display: none;
+  }
+}
