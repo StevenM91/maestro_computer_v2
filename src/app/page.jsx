@@ -3,6 +3,7 @@ import styles from "./page.module.css";
 import Projects from "@/components/project/Projects";
 import Contact from "@/components/contact/Contact";
 import Home from "@/components/home/Home";
+import Copyright from "@/components/copyright/Copyright";
 
 const Page = () => {
   return (
@@ -19,6 +20,7 @@ const Page = () => {
       <section id="contact">
         <Contact />
       </section>
+      <Copyright />
     </div>
   );
 };

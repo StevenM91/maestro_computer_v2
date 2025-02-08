@@ -20,7 +20,7 @@ const Home = () => {
         <StarryNight />
         <div className={styles.content}>
           <TiltedCard
-            imageSrc="/images/moi.webp"
+            imageSrc="/images/moi1.webp"
             altText="MAITRE STEVEN"
             containerHeight="300px"
             containerWidth="300px"
