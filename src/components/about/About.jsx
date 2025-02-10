@@ -1,9 +1,9 @@
 "use client";
 
-import { motion } from "framer-motion";
 import styles from "./about.module.css";
 import { useRef } from "react";
 import ScrollBasedAnimation from "../ScrollBasedAnimation/ScrollBasedAnimation";
+import { motion } from "framer-motion";
 
 const About = () => {
   const textRef = useRef(null);
@@ -40,10 +40,10 @@ const About = () => {
             <p className={styles.desc}>
               Développeur web passionné depuis 2020, je suis constamment à la
               recherche de nouvelles technologies et de défis à relever.
-              Autodidacte de nature, j'ai rapidement été séduit par la
-              flexibilité et la créativité qu'offre le développement web. Ma
-              formation FullStack chez Doranco m'a permis de consolider mes
-              bases et d'acquérir une méthodologie rigoureuse. Je suis
+              Autodidacte de nature, j&apos;ai rapidement été séduit par la
+              flexibilité et la créativité qu&apos;offre le développement web.
+              Ma formation FullStack chez Doranco m&apos;a permis de consolider
+              mes bases et d&apos;acquérir une méthodologie rigoureuse. Je suis
               particulièrement attaché à JavaScript et React, langages que je
               maîtrise parfaitement et qui me permettent de créer des interfaces
               utilisateur dynamiques et réactives. Mon objectif est de concevoir

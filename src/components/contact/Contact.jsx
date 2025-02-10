@@ -64,7 +64,8 @@ const Contact = () => {
       >
         <h1 className={styles.title}>Demandez tout ce que vous avez en tête</h1>
         <h3 className={styles.subtitle}>
-          Vous avez des questions ou besoin d'aide ? Remplissez le formulaire{" "}
+          Vous avez des questions ou besoin d&apos;aide ? Remplissez le
+          formulaire
           <br />
           ci-dessous et je répondrai dans les plus brefs délais.
         </h3>

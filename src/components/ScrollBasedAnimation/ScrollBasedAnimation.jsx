@@ -1,10 +1,9 @@
 import { motion, useScroll, useTransform } from "framer-motion";
-import Image from "next/image";
 import styles from "./ScrollBasedAnimation.module.css";
 
 const ScrollBasedAnimation = () => {
-  const { scrollY } = useScroll(); // Obtenir la position de défilement verticale
-  const y = useTransform(scrollY, [0, 1000], [0, -300]); // Transformer le défilement en mouvement vertical
+  const { scrollY } = useScroll();
+  const y = useTransform(scrollY, [0, 1000], [0, -300]);
 
   const logos = [
     { name: "JavaScript", src: "/logos/js.webp" },
